@@ -1,0 +1,14 @@
+language: ruby
+
+services:
+  - docker
+
+before_install:
+  - docker build -t wkhtmltopdf .
+
+script:
+  - docker run --rm -v $(pwd):/data wkhtmltopdf 
+      --viewport-size 1280x1024 
+      --page-size A4 
+      https://www.google.com/ 
+      /data/test.pdf
