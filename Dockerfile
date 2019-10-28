@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:jessie-slim
 LABEL maintainer "Kinner Vachhani <kinner.vachhani@accessbookings.com>"
 
 RUN apt-get update \

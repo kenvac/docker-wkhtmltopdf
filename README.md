@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/kenvac/docker-wkhtmltopdf.svg?branch=master)](https://travis-ci.org/kenvac/docker-wkhtmltopdf)
 
 ## Usage example
 
